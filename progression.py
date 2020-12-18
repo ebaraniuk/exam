@@ -13,7 +13,7 @@ class Progression:
 
 def main():
     progression = Progression(25)  # create progression where first element=1, difference=3,amount of elements=10
-    print('sum of 25 elements is =>{summa}'.format(summa=progression.summa()))
+    print('sum => {summa}'.format(summa=progression.summa()))
 
 
 if __name__ == '__main__':
